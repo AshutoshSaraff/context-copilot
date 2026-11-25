@@ -1,0 +1,13 @@
+
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.git/
+.env
+.env.*
+!.env.example
+
+backend/storage/
+frontend/.streamlit/secrets.toml
+*.pyc

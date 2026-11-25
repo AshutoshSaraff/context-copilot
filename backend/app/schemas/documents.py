@@ -25,3 +25,8 @@ class ProcessDocumentResponse(BaseModel):
     document_id: str
     status: str
 
+
+class DeleteDocumentResponse(BaseModel):
+    message: str
+    document_id: str
+    status: str
